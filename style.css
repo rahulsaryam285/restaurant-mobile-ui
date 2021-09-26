@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* body{
+    width: 1024px;
+}  */
+
+
+.header{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+    
+}
+
+
+.corner{
+    overflow: hidden;
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 0;
+    left: 0;
+    margin-top: -50px;
+    margin-left: -55px;
+}
+
+
+
+.dot{
+    overflow: hidden;
+    width: 300px;
+    height: 65px;
+    margin-top: -50px;
+}
+
+
+.locally-header{
+    width: 226px;
+    height: 45px;
+    margin-top: 65px;
+}
+
+
+.h1-del{
+    margin-top: 26px;
+    /* width: 292px; */
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 45px;
+    line-height: 62px;
+    word-spacing: 0.07px;
+    z-index: 999;
+}
+
+
+
+.p-straight{
+    margin-top: -10px;
+    /* width: 236px; */
+    height: 27px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #F9A61B;
+    font-size: 20px;
+    line-height: 34px;
+    word-spacing: 0.03px;
+
+}
+
+
+.p-uk{
+    margin-top: 15px;
+    margin-right: 34px;
+    margin-left: 48px;
+    height: 65px;
+    font-family: "Futura PT";
+    color: #001F60;
+    text-align: center;
+    font-size: 12.5px;
+    line-height: 16px;
+    word-spacing: 0.02px;
+}
+
+
+.main-aap{
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+.mobile-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.side-circle{
+    position: absolute;
+    top: 70px;
+    left: -290px;
+}
+
+
+.rectangle{
+    position: absolute;
+    top: 10px;
+    left: -120px;
+}
+
+
+
+.mobile{
+    margin-top: -30px;
+    /* width: 391px; */
+    height: 553px;
+    z-index: 333;
+}
+
+
+.work{
+    margin-top: -10px;
+    /* width: 215px; */
+    height: 53px;
+    font-family: 'Playfair Display', serif;
+    color: #001F60;
+    font-size: 32px;
+    line-height: 43px;
+    word-spacing: 0.05px; 
+}
+
+
+hr{
+    margin-bottom: 25px;
+    width: 151px;
+    border: 1px solid #F9A61B;
+}
+
+
+
+.purchase-1, .purchase-2, .purchase-3{
+    justify-content: center;
+    
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.one{
+    margin-right: -15px;
+}
+
+.man{
+    width: 279px;
+    height: 298px;
+}
+
+
+
+.two{
+    margin-right: -22px;
+}
+
+
+
+.girl-two{
+    width: 280px;
+    height: 309px;
+}
+
+
+
+
+.three{
+    margin-right: -22px;
+} 
+
+
+
+.girl-three{
+    width: 281px;
+    height: 299px;
+}
+
+
+
+@font-face {
+    font-family: "Julietta";
+    src: url(font/FontsFree-Net-julietta.ttf);
+}
+
+.beautiful-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    overflow: none;
+    background-color: rgb(7 7 105);
+}
+
+
+
+.coming-soon{
+    font-family: "Julietta";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.beautiful{
+    margin-top: 31px;
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 17px;
+    word-spacing: 0.02px; 
+
+}
+
+
+
+.soon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Julietta";
+    text-align: center;
+    color: #F9A61B;
+    font-size: 54px;
+    line-height: 65px;
+    word-spacing: 2px; 
+}
+
+
+
+
+.google{
+    margin-bottom: 25px;
+}
+
+
+
+
+.tab{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(47, 46, 82);
+    z-index: 765;
+}
+
+
+
+.corner-rect{
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    
+}
+
+
+
+
+.price{
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.h1-price{
+    margin-top: 43px;
+    margin-left: 77px;
+    margin-right: 77px;
+    width: 258px;
+    height: 148px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #001F60;
+    font-size: 32px;
+    line-height: 35px;
+    word-spacing: 0.05px; 
+
+}
+
+
+.hr{
+    margin-top: -20px;
+}
+
+
+
+
+
+.p-price{
+    /* width: 350px; */
+    height: 79px;
+    margin-left: 31px;
+    margin-right: 31px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #2B2B2B;
+    line-height: 20px;
+    word-spacing: 0.02px;
+    text-align: center;
+}
+
+
+
+
+.app-grocary{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    overflow: hidden;
+    padding-left: 50px;
+    
+}
+
+
+
+.app{
+    margin-left: -40px;
+}
+
+
+
+.grocary-main{
+    margin-top: -40px;
+}
+
+
+
+
+.ellipse{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.delivery-partner{
+    margin-bottom: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.ellipse-1{
+    position: absolute;
+    top: 50px;
+    right:  -140px;
+    z-index: -1;
+}
+
+
+
+.ellipse-2{
+    position: absolute;
+    width: 126px;
+    margin-top: 110px;
+    margin-left: -140px;
+
+}
+
+
+
+.thin-dot{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+
+.again{
+    position: absolute;
+    margin-left: 138px;
+}
+
+
+.ellipse-center{
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -310px;
+}
+
+
+
+
+.detail-partner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+
+
+.partner{
+    width: 168px;
+    height: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 22px;
+    line-height: 30px;
+    word-spacing: 0.04px;
+
+}
+
+
+.your{
+    margin-top: 10px;
+    width: 236px;
+    height: 50px;
+    text-align: center;
+    color:rgb(37, 37, 114);
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+
+
+
+.btn{
+    width: 91px;
+    height: 23px;
+    font-family: "Roboto", sans-serif;
+    font-size: 8px;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 10px 12px 24px #ff135d26;
+    border: none;
+    outline: none;
+    background-color: #F9A61B;
+    border-radius: 11px;
+}
+
+
+
+.detail-partner{
+    margin-top: 200px;
+}
+
+
+.girl{
+    margin-top: -70px;
+}
+
+.business-partner{
+    width: 174px;
+    height: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 22px;
+    line-height: 30px;
+    word-spacing: 0.04px;
+
+}
+
+
+
+
+.thousand{
+    margin-top: 12px;
+    width: 157px;
+    height: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.01px;
+    line-height: 15px;
+    color: #001F60;
+    text-align: center;
+}
+
+
+
+footer{
+    margin-top: -50px;
+    /* width: 412px; */
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #051E56;
+}
+
+
+
+.p-footer{
+    margin-top: 22px;
+    /* width: 140px; */
+    height: 13px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+
+
+
